@@ -1,0 +1,9 @@
+# Opcional: análise semântica com Sentence Transformers (instala o PyTorch, ~1 GB).
+# Sem estes pacotes, o CV Match usa TF-IDF do scikit-learn como motor semântico local.
+#
+# Versões fixadas para funcionar também em Macs Intel (x86_64), onde o PyTorch
+# mais recente disponível é o 2.2.2, que exige NumPy 1.x e transformers 4.x.
+-r requirements.txt
+sentence-transformers>=3.0,<3.4
+transformers>=4.41,<4.47
+numpy>=1.26,<2

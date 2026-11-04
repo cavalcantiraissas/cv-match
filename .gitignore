@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Dados locais (contêm textos de currículos)
+*.db
+*.db-journal
+data/
+
+# Ambiente
+.env
+.DS_Store
